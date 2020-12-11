@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parent_document_detail_item_layout">
+
+    <TextView
+        android:id="@+id/tv_document_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_document_product_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:textSize="17dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_document_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="17dp"
+        android:layout_marginLeft="190dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_document_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="230dp"
+        android:textSize="17dp">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_document_uom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:textSize="17dp"
+        android:layout_centerVertical="true">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tv_document_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="300dp"
+        android:textSize="17dp">
+    </TextView>
+
+
+</RelativeLayout>
